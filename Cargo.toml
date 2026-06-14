@@ -1,0 +1,7 @@
+[package]
+name = "serpcheap-rust-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serpcheap = { git = "https://github.com/SerpCheap/serpcheap-rust" }
