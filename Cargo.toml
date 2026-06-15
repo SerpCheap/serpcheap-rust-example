@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# The scrape example (src/bin/scrape.rs) needs the scrape-capable SDK,
+# not yet published to crates.io — pinned to git until then.
 serpcheap = { git = "https://github.com/SerpCheap/serpcheap-rust" }
